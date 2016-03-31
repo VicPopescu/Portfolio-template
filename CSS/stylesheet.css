@@ -261,21 +261,21 @@ footer {
 /* ---BUTTONS--- */
 
 .btn {
-    display: inline-block;
-    vertical-align: middle;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    transition-duration: 0.1s; /* this cause the flick */
-    transition-property: transform;
-    background-color: #bfbfbf;   
+    display: inline-block !important;
+    vertical-align: middle !important;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4) !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5) !important;
+    transition-duration: 0.1s !important; /* this cause the flick */
+    transition-property: transform !important;
+    background-color: #bfbfbf !important;   
 }
 
 .btn:hover,
 .btn:focus,
 .btn:active {
-    transform: scale(1.1);
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
+    transform: scale(1.1) !important;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
     
 }
 
