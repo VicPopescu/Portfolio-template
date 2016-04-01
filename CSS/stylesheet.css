@@ -1,3 +1,17 @@
+/* ---FONTS--- */
+
+@font-face {
+    font-family: Open Sans;
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url();
+}
+
+
+
 
 /* ---GENERAL--- */
 
@@ -8,17 +22,17 @@ body, html {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato','Open Sans', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
-  color:black;
+	font-weight: 400;
+    color: red;
 	
 }
 
 /* fixing flicker */
 .home, .about, .portfolio, .contact{
-  -webkit-transform:translate3d(0,0,0);
+    -webkit-transform:translate3d(0,0,0);
 }
 
 /* ---/GENERAL--- */
@@ -26,7 +40,7 @@ body, h1, h2, h3, h4, h5, h6 {
 /* ---NAV BAR--- */
 
 #myNavbar a:hover{
-  background-color: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 /* ---/NAV BAR--- */
@@ -34,10 +48,10 @@ body, h1, h2, h3, h4, h5, h6 {
 /* ---HOME SECTION--- */
 
 #intro-message {
-  padding-top: 80px;
-  color: #bfbfbf;
-  font-size: 5em;
-  text-shadow: 2px 2px 2px black;
+    padding-top: 80px;
+    color: #bfbfbf;
+    font-size: 5em;
+    text-shadow: 2px 2px 2px black;
 }
 
 #intro-message2 {
