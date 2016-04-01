@@ -1,16 +1,9 @@
 /* ---FONTS--- */
 
-@font-face {
-    font-family: Open Sans;
-    src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-@font-face {
-    font-family: Lato;
-    src: url();
-}
-
-
+/* ---/FONTS--- */
 
 
 /* ---GENERAL--- */
@@ -22,11 +15,11 @@ body, html {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', 'Open Sans', sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-    color: red;
+    color: black;
 	
 }
 
